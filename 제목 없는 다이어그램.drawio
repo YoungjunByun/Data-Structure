@@ -1,1 +1,69 @@
-<mxfile host="app.diagrams.net" modified="2023-03-20T12:19:46.494Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.0.8" etag="3QLo-RaPlmoiSafwS7eb" type="github"><diagram name="페이지-1" id="SddIPKtOoKbqKdpaY692">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-20T12:28:19.528Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="6TIApODHgYXhbmTkQoj7" version="21.0.8" type="github">
+  <diagram name="페이지-1" id="SddIPKtOoKbqKdpaY692">
+    <mxGraphModel dx="1134" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GcmNEJe5THqJfrxO3BkX-1" value="데이터 입력받음" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GcmNEJe5THqJfrxO3BkX-3" value="입력한 데이터보다 큰 값이 존재하는가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="280" width="180" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="GcmNEJe5THqJfrxO3BkX-4" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="GcmNEJe5THqJfrxO3BkX-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="360" as="sourcePoint" />
+            <mxPoint x="270" y="335" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GcmNEJe5THqJfrxO3BkX-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="360" as="sourcePoint" />
+            <mxPoint x="200" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GcmNEJe5THqJfrxO3BkX-6" value="Yes" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="390" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GcmNEJe5THqJfrxO3BkX-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="360" as="sourcePoint" />
+            <mxPoint x="620" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GcmNEJe5THqJfrxO3BkX-8" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="359.29" as="sourcePoint" />
+            <mxPoint x="620" y="359" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GcmNEJe5THqJfrxO3BkX-9" value="No" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="380" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GcmNEJe5THqJfrxO3BkX-10" value="Error 출력 후 프로그램 종료" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GcmNEJe5THqJfrxO3BkX-11" value="Binary Search 알고리즘 사용하여 입력한 데이터보다 큰 값을 출력" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="550" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GcmNEJe5THqJfrxO3BkX-12" value="오름차순으로 정렬" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GcmNEJe5THqJfrxO3BkX-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="GcmNEJe5THqJfrxO3BkX-1" target="GcmNEJe5THqJfrxO3BkX-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="389" y="140" as="sourcePoint" />
+            <mxPoint x="439" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GcmNEJe5THqJfrxO3BkX-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="GcmNEJe5THqJfrxO3BkX-12" target="GcmNEJe5THqJfrxO3BkX-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="375" y="260" as="sourcePoint" />
+            <mxPoint x="425" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
