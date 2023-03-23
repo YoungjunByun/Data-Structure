@@ -1,0 +1,9 @@
+﻿  FileName.cpp
+C:\Users\ASUS\source\repos\Project1\Project2\FileName.cpp(13): warning C4554: '|': 연산자 우선 순위에 오류가 있는지 확인하세요. 괄호를 사용하여 우선 순위를 명확하게 지정하세요.
+C:\Users\ASUS\source\repos\Project1\Project2\FileName.cpp(13,44): warning C4554: '|': 연산자 우선 순위에 오류가 있는지 확인하세요. 괄호를 사용하여 우선 순위를 명확하게 지정하세요.
+C:\Users\ASUS\source\repos\Project1\Project2\FileName.cpp(22,47): warning C4554: '|': 연산자 우선 순위에 오류가 있는지 확인하세요. 괄호를 사용하여 우선 순위를 명확하게 지정하세요.
+C:\Users\ASUS\source\repos\Project1\Project2\FileName.cpp(32): warning C4554: '|': 연산자 우선 순위에 오류가 있는지 확인하세요. 괄호를 사용하여 우선 순위를 명확하게 지정하세요.
+C:\Users\ASUS\source\repos\Project1\Project2\FileName.cpp(32,44): warning C4554: '|': 연산자 우선 순위에 오류가 있는지 확인하세요. 괄호를 사용하여 우선 순위를 명확하게 지정하세요.
+C:\Users\ASUS\source\repos\Project1\Project2\FileName.cpp(41,47): warning C4554: '|': 연산자 우선 순위에 오류가 있는지 확인하세요. 괄호를 사용하여 우선 순위를 명확하게 지정하세요.
+C:\Users\ASUS\source\repos\Project1\Project2\FileName.cpp(49,29): warning C4554: '|': 연산자 우선 순위에 오류가 있는지 확인하세요. 괄호를 사용하여 우선 순위를 명확하게 지정하세요.
+  Project2.vcxproj -> C:\Users\ASUS\source\repos\Project1\x64\Debug\Project2.exe
